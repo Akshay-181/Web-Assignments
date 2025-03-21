@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candidate Application Portal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Candidate Application Form</h2>
+    <form action="/cgi-bin/apply.py" method="POST" enctype="multipart/form-data">
+        <label>Name:</label>
+        <input type="text" name="name" required><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br>
+
+        <label>Qualifications:</label>
+        <input type="text" name="qualification" required><br>
+
+        <label>Upload Resume (PDF/Word):</label>
+        <input type="file" name="resume" accept=".pdf, .doc, .docx" required><br>
+
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>

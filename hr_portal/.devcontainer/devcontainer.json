@@ -1,0 +1,10 @@
+{
+    "name": "CGI Python Project",
+    "dockerFile": "../Dockerfile",
+    "appPort": [8080],
+    "forwardPorts": [8080],
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "/bin/bash"
+    }
+  }
+  
